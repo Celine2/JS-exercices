@@ -14,5 +14,13 @@ for (var index=0; index<12; index++){
 	}
 }
 
+for (var index=0; index<12; index++){
+	if (index ===10) {
+		console.log(mois[index]);
+	}
+}
+
+
+
 
 
