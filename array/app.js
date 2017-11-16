@@ -2,6 +2,7 @@
 
 var mois = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre','Décembre'];
 
+
 for (var index=0; index<12; index++){
 	if (index===2) { 
 		console.log(mois[index]);
@@ -19,6 +20,12 @@ for (var index=0; index<12; index++){
 		console.log(mois[index]);
 	}
 }
+
+var array = ['tomates', 'oranges', 'citrons'];
+array.push('courgettes');
+console.log (array);
+
+
 
 
 
